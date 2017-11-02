@@ -1,0 +1,104 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  /* ---------------header--------------------*/
+  .title__text{
+    font-size: 5rem;
+  }
+
+  .title__header{
+    font-size: 3rem;
+  }
+
+  /* ---------------header--------------------*/
+
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+
+
+  //---------------header--------------------
+  .menu{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+
+    &__items{
+      display: block;
+      margin: 10px;
+    }
+
+  }
+
+  .bars{
+    display: block;
+    float: right;
+    font-size: 30px;
+  }
+;
+
+
+  // ---------------header--------------------
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  /* ---------------header--------------------*/
+  .title__text{
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .title__header{
+    font-size: 2rem;
+  }
+
+  .bottom-navbar{
+    display: none;
+  }
+
+  /* ---------------header--------------------*/
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+

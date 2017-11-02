@@ -1,0 +1,21 @@
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+
+@import "global/mixins";
+@import "global/fonts";
+@import "global/vars";
+@import "global/base";
+@import "global/button";
+@import "global/common";
+
+
+@import "sections/header";
+@import "sections/about";
+@import "sections/heading";
+@import "sections/achievement";
+
+
+
+@import "global/media";

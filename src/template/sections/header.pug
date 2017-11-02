@@ -1,0 +1,47 @@
+header.header
+    .header__nav
+        .container
+            .row
+                .navbar-header.col-md-5.col-sm-3
+                    a.logo(href='#') MoGo
+                    i.bars.fa.fa-bars(aria-hidden="true")
+                .navbar-right.col-md-7.col-sm-9
+                    ul.menu
+                        - var items = ['About', 'Service', 'Work', 'BLOG', 'Contact']
+                        each item in items
+                            li.menu__items: a.menu__link(href="#")= item
+
+                        li.menu__items: a.menu__link.menu__link--icon(href="#"): i.fa.fa-shopping-cart(aria-hidden="true")
+                        li.menu__items: a.menu__link.menu__link--icon(href="#"): i.fa.fa-search(aria-hidden="true")
+
+    .container
+        .row
+            .col-md-10.col-md-offset-1
+                .title
+                    h1.title__header Creative Template
+                    p.title__text Welcome to MoGo
+                    a.my-btn learn more
+    .container
+        .row
+            .bottom-navbar
+                ul.bottom-menu
+                    li.bottom-menu__items
+                        a.bottom-menu__link(href='#')
+                            span.bottom-menu__link--index 01
+                            | Intro
+                    li.bottom-menu__items
+                        a.bottom-menu__link(href='#')
+                            span.bottom-menu__link--index 02
+                            | Work
+                    li.bottom-menu__items
+                        a.bottom-menu__link(href='#')
+                            span.bottom-menu__link--index 03
+                            | About
+                    li.bottom-menu__items
+                        a.bottom-menu__link(href='#')
+                            span.bottom-menu__link--index 04
+                            | Contacts
+
+
+
+

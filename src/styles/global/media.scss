@@ -16,7 +16,19 @@
 
   /* ---------------header--------------------*/
 
+  /* ---------------achievement--------------------*/
+  .achievement{
 
+    &__text{
+      font-size: 3.5rem;
+    }
+
+    &__header{
+      font-size: 0.525rem;
+    }
+  }
+
+  /* ---------------achievement--------------------*/
 
 
 }
@@ -46,34 +58,39 @@
     animation: none !important;
   }
 
-
   //---------------header--------------------
-  .menu{
+  .menu {
     display: none;
     width: 100%;
     flex-direction: column;
     align-items: center;
 
-
-    &__items{
+    &__items {
       display: block;
       margin: 10px;
     }
 
   }
 
-  .bars{
+  .bars {
     display: block;
     float: right;
     font-size: 30px;
   }
 ;
 
-
   // ---------------header--------------------
 
+  /* ---------------achievement--------------------*/
 
+  .achievement {
 
+    &__text{
+      font-size: 2.5rem;
+    }
+
+  }
+  /* ---------------achievement--------------------*/
 }
 
 /* Extra Small Devices, Phones */
@@ -93,6 +110,37 @@
   }
 
   /* ---------------header--------------------*/
+
+
+  /* ---------------achievement--------------------*/
+
+  .achievement {
+
+    &__list {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+    }
+
+    &__items{
+      border: none;
+
+      &:last-child{
+        border: none;
+      }
+    }
+
+    &__text{
+      font-size: 3.5rem;
+    }
+
+    &__header{
+      font-size: 0.875rem;
+    }
+
+  }
+  /* ---------------achievement--------------------*/
 
 
 }

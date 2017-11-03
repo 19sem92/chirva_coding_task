@@ -1,0 +1,31 @@
+.services{
+  padding: 110px 0 110px;
+
+  &__block{
+    margin-top: 60px;
+
+  }
+
+  &__icon{
+    margin-right: 15px;
+
+  }
+
+  &__header{
+    margin: 0 0 15px;
+    font-family: montserrat-regular, sans-serif;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: $accent-text-color;
+
+  }
+
+  &__text{
+    font-family: roboto-regular, sans-serif;
+    font-size: 0.9375rem;
+    color: $description-text-color;
+
+  }
+
+
+}

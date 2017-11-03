@@ -1,0 +1,23 @@
+.icon-alarm{
+  @include sprite($alarm)
+}
+
+.icon-graph{
+  @include sprite($graph)
+}
+
+.icon-computer{
+  @include sprite($computer)
+}
+
+.icon-book{
+  @include sprite($book)
+}
+
+.icon-home{
+  @include sprite($home)
+}
+
+.icon-image{
+  @include sprite($image)
+}

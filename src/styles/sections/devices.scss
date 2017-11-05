@@ -1,0 +1,21 @@
+.devices{
+  padding-top: 110px;
+  background: url(../../images/devices-1.jpg) center / cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+
+  &__img-ipad {
+    display: flex;
+    margin: 45px auto 0;
+  }
+
+
+  &__img-iphone{
+    position: absolute;
+    left: 57%;
+    top: 55%;
+  }
+
+}

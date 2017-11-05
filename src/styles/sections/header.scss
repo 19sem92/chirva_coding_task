@@ -110,6 +110,7 @@
 
     &:hover.bottom-menu__items::before{
       background: linear-gradient(to right, rgba(243,129,129,1) 0%,rgba(241,129,127,1) 25%,rgba(255,255,246,1) 26%);
+      animation: animate-width 1s
     }
   }
 
@@ -130,4 +131,13 @@
 
 .bars{
   display: none;
+}
+
+@keyframes animate-width {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }

@@ -1,6 +1,14 @@
-var bars = document.querySelector('.bars'),
-    menu = document.querySelector('.menu');
+(function () {
+    var openMenuButton = document.querySelector('.bars');
 
-bars.addEventListener("click", function () {
-   menu.classList.toggle("is-visible")
-});
+    if(openMenuButton) {
+
+        openMenuButton.addEventListener('click', function () {
+
+            menu.createNode();
+            menu.open();
+        })
+    }
+}());
+
+

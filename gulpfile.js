@@ -48,6 +48,7 @@ gulp.task('styles:compile', function () {
 gulp.task('js', function () {
 
     return gulp.src([
+        'src/js/menu.js',
         'src/js/main.js'
     ])
         .pipe(sourcemaps.init())

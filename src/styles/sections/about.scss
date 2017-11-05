@@ -3,6 +3,11 @@
   padding-top: 90px;
   text-align: center;
 
+  &__description{
+    color: $description-text-color;
+    margin: 50px 10px 90px;
+  }
+
 
   &__item{
     margin-bottom: 110px;
@@ -62,11 +67,5 @@
   }
   
 
-}
-
-
-.description{
-  color: $description-text-color;
-  margin: 50px 0 90px;
 }
 

@@ -62,12 +62,20 @@
   .menu {
     display: none;
     width: 100%;
+    padding: 0;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    z-index: 999999;
 
     &__items {
       display: block;
-      margin: 10px;
+      margin: 15px;
+    }
+
+    &__link{
+      font-size: 1.5rem;
+      transition: 0.1s;
     }
 
   }
@@ -76,6 +84,7 @@
     display: block;
     float: right;
     font-size: 30px;
+    cursor: pointer;
   }
 ;
 
@@ -154,6 +163,25 @@
 
   }
   /* ---------------achievement--------------------*/
+
+  /* ---------------devices--------------------*/
+  .devices{
+    display: block;
+
+    &__img-ipad {
+      display: none;
+    }
+
+    &__img-iphone{
+      display: flex;
+      position: static;
+      margin: 30px auto;
+    }
+
+  }
+
+
+  /* ---------------devices--------------------*/
 
 
 }

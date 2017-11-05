@@ -2,10 +2,10 @@ header.header
     .header__nav
         .container
             .row
-                .navbar-header.col-md-5.col-sm-3
+                .col-md-5.col-sm-3
                     a.logo(href='#') MoGo
                     i.bars.fa.fa-bars(aria-hidden="true")
-                .navbar-right.col-md-7.col-sm-9
+                .col-md-7.col-sm-9(id="nav-bar")
                     ul.menu
                         - var items = ['About', 'Service', 'Work', 'BLOG', 'Contact']
                         each item in items

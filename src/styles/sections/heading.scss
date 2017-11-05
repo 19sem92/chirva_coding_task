@@ -1,21 +1,20 @@
-.heading{
+.heading {
   text-align: center;
   color: $accent-text-color;
 
-  &__header{
+  &__header {
     font-family: kaushanscript-regular, sans-serif;
     font-size: 1.5rem;
   }
 
-  &__text{
+  &__text {
     font-family: montserrat-bold, sans-serif;
     font-size: 1.875rem;
     text-transform: uppercase;
     margin-bottom: 30px;
   }
 
-
-  &:after{
+  &:after {
     content: "";
     display: block;
     width: 60px;

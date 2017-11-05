@@ -1,7 +1,7 @@
-(function () {
+(function (menu) {
     var openMenuButton = document.querySelector('.bars');
 
-    if(openMenuButton) {
+    if (openMenuButton) {
 
         openMenuButton.addEventListener('click', function () {
 
@@ -9,6 +9,6 @@
             menu.open();
         })
     }
-}());
+}(slideMenu));
 
 

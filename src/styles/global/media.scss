@@ -1,40 +1,39 @@
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width: 1200px) {
 
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   /* ---------------header--------------------*/
-  .title__text{
+  .title__text {
     font-size: 5rem;
   }
 
-  .title__header{
+  .title__header {
     font-size: 3rem;
   }
 
   /* ---------------header--------------------*/
 
   /* ---------------achievement--------------------*/
-  .achievement{
+  .achievement {
 
-    &__text{
+    &__text {
       font-size: 3.5rem;
     }
 
-    &__header{
+    &__header {
       font-size: 0.525rem;
     }
   }
 
   /* ---------------achievement--------------------*/
 
-
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
 
   /*Disable Animation on Mobile Devices*/
   .animated {
@@ -74,7 +73,6 @@
     z-index: 999999;
     animation: animate-width-menu 1s;
 
-
     &__items {
       display: block;
       margin: 15px 0;
@@ -112,45 +110,41 @@
 
   .achievement {
 
-    &__text{
+    &__text {
       font-size: 2.5rem;
     }
 
   }
   /* ---------------achievement--------------------*/
-  .services{
+  .services {
 
     text-align: center;
 
-    &__icon{
+    &__icon {
       margin: 0 auto 10px;
     }
 
   }
 
-
-
-
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width: 480px) {
   /* ---------------header--------------------*/
-  .title__text{
+  .title__text {
     font-size: 3rem;
     line-height: 3rem;
   }
 
-  .title__header{
+  .title__header {
     font-size: 2rem;
   }
 
-  .bottom-navbar{
+  .bottom-navbar {
     display: none;
   }
 
   /* ---------------header--------------------*/
-
 
   /* ---------------achievement--------------------*/
 
@@ -163,19 +157,19 @@
       padding: 0;
     }
 
-    &__items{
+    &__items {
       border: none;
 
-      &:last-child{
+      &:last-child {
         border: none;
       }
     }
 
-    &__text{
+    &__text {
       font-size: 3.5rem;
     }
 
-    &__header{
+    &__header {
       font-size: 0.875rem;
     }
 
@@ -183,14 +177,14 @@
   /* ---------------achievement--------------------*/
 
   /* ---------------devices--------------------*/
-  .devices{
+  .devices {
     display: block;
 
     &__img-ipad {
       display: none;
     }
 
-    &__img-iphone{
+    &__img-iphone {
       display: flex;
       position: static;
       margin: 30px auto;
@@ -198,14 +192,12 @@
 
   }
 
-
   /* ---------------devices--------------------*/
-
 
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width: 320px) {
 
 }
 

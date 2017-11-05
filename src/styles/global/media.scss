@@ -61,23 +61,41 @@
   //---------------header--------------------
   .menu {
     display: none;
-    width: 100%;
-    padding: 0;
+    width: 80%;
+    padding: 40px 40px 40px 0;
+    margin: 0;
     flex-direction: column;
-    align-items: center;
-    position: absolute;
+    justify-content: flex-start;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
     z-index: 999999;
+    animation: animate-width-menu 1s;
+
 
     &__items {
       display: block;
-      margin: 15px;
+      margin: 15px 0;
     }
 
-    &__link{
+    &__link {
       font-size: 1.5rem;
       transition: 0.1s;
     }
 
+  }
+
+  @keyframes animate-width-menu {
+    from {
+      width: 0;
+      padding: 0;
+    }
+    to {
+      width: 80%;
+      padding: 40px 40px 40px 0;
+    }
   }
 
   .bars {

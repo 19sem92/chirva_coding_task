@@ -12,13 +12,13 @@
 
 .menu-xs__close-button {
   position: absolute;
-  right: 15px;
+  right: 0;
   top: 15px;
   width: 50px;
   height: 50px;
   text-align: center;
-  font-size: 2rem;
-  color: $accent-color;
+  font-size: 1.5rem;
+  color: $header-text-color;
   cursor: pointer;
 
 }
